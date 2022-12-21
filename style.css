@@ -1,0 +1,224 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background-color: rgb(234, 234, 234);
+}
+.container {
+  position: relative;
+}
+#title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+#banner {
+  height: auto;
+  width: 100vw;
+}
+h1 {
+  font-size: 50px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.538);
+  color: white;
+  margin: 0px;
+}
+#title > p {
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.335);
+}
+span {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  color: white;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+#intro > h2 {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+p {
+  margin: 20px 30px 50px 30px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.802);
+}
+.location {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  opacity: 0.4;
+}
+#text {
+  position: absolute;
+  top: 20%;
+}
+#text p {
+  margin: 0vw 12vw;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.802);
+}
+#menu {
+  background-color: rgba(0, 0, 0, 0.862);
+}
+#menu-tag {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 0px;
+  padding-top: 30px;
+  text-align: center;
+}
+.menu-pic {
+  position: relative;
+  padding: 30px;
+  width: 100%;
+  height: auto;
+}
+#menu h2 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  z-index: 2;
+  text-align: center;
+  font-size: 50px;
+  transform: translate(-50%);
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.335);
+}
+#footer {
+  background-color: rgba(35, 36, 69, 0);
+}
+#footer > p {
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+}
+.fb-page {
+  transform: translate(-50%);
+}
+@media only screen and (min-width: 769px) {
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+  #text h2 {
+    text-align: left;
+    margin-left: 12vw;
+  }
+  #text p {
+    margin-right: 50%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  #text {
+    position: relative;
+    top: 100px;
+  }
+  #text h2 {
+    margin: 10px 20px;
+    color: rgba(255, 255, 255, 0.833);
+  }
+  #text p {
+    margin: 10px 20px;
+    color: rgba(255, 255, 255, 0.833);
+  }
+  .location {
+    opacity: 0.8;
+  }
+  #content {
+    background-color: rgba(0, 0, 0, 0.668);
+  }
+  #menu h2 {
+    font-size: 30px;
+  }
+  .menu-pic {
+    padding: 30px 10px;
+  }
+}
+[class*="col-"] {
+  float: left;
+}
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
